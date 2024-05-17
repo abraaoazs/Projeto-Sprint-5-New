@@ -4,6 +4,8 @@ import streamlit as st
 
 
 
+st.header("Gráfico e Histograma de vendas de carros nos EUA")
+
 car_data = pd.read_csv('vehicles.csv')
 hist_button = st.button('Criar histograma')
 
